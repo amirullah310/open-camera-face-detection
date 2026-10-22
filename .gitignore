@@ -23,3 +23,29 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 .DS_Store
+
+# Hasil capture dan deteksi wajah (jangan di-upload)
+**/output/
+**/hasil/
+**/detected_faces/
+**/face_detection_output/
+**/snapshot.*
+**/*_output.*
+**/*_detected.*
+**/*_result.*
+
+# File rahasia
+.env
+*.key
+*.pem
+
+# Log dan file sementara
+*.log
+*.tmp
+*.temp
+
+# File model besar
+*.weights
+*.onnx
+*.pt
+*.h5
